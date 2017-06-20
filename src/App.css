@@ -1,0 +1,62 @@
+h3 {
+  margin: 1rem 0 0 0;
+}
+
+.youtube-looper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0 auto;
+  max-width: 760px;
+}
+
+.youtube-player {
+  width: 640px;
+  height: 360px;
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  margin-right: 1rem;
+}
+
+@media (max-width: 599px) {
+  .youtube-player {
+    width: 320px;
+    height: 180px;
+  }
+}
+
+.control {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.url-form {
+  /*display: flex;*/
+  align-items: center;
+}
+.url-input {
+  /*flex: 1;*/
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}
+.range {
+  flex: 1;
+  margin-left: 1rem;
+}
