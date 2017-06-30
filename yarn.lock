@@ -313,6 +313,13 @@ aws4@^1.2.1:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.6.0.tgz#83ef5ca860b2b32e4a0deedee8c771b9db57471e"
 
+axios@^0.16.2:
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.16.2.tgz#ba4f92f17167dfbab40983785454b9ac149c3c6d"
+  dependencies:
+    follow-redirects "^1.2.3"
+    is-buffer "^1.1.5"
+
 axobject-query@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/axobject-query/-/axobject-query-0.1.0.tgz#62f59dbc59c9f9242759ca349960e7a2fe3c36c0"
@@ -1271,7 +1278,7 @@ clap@^1.0.9:
   dependencies:
     chalk "^1.1.3"
 
-classnames@^2.2.5:
+classnames@^2.2.4, classnames@^2.2.5:
   version "2.2.5"
   resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.2.5.tgz#fb3801d453467649ef3603c7d61a02bd129bde6d"
 
@@ -1724,7 +1731,7 @@ debug@2.6.7:
   dependencies:
     ms "2.0.0"
 
-debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8:
+debug@2.6.8, debug@^2.1.1, debug@^2.2.0, debug@^2.4.5, debug@^2.6.0, debug@^2.6.3, debug@^2.6.6, debug@^2.6.8:
   version "2.6.8"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.8.tgz#e731531ca2ede27d188222427da17821d68ff4fc"
   dependencies:
@@ -2503,6 +2510,12 @@ flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"
 
+follow-redirects@^1.2.3:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.2.4.tgz#355e8f4d16876b43f577b0d5ce2668b9723214ea"
+  dependencies:
+    debug "^2.4.5"
+
 for-in@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"
@@ -2936,6 +2949,10 @@ ieee754@^1.1.4:
 ignore@^3.2.0:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.3.3.tgz#432352e57accd87ab3110e82d3fea0e47812156d"
+
+immutable@^3.8.1:
+  version "3.8.1"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.8.1.tgz#200807f11ab0f72710ea485542de088075f68cd2"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -4996,6 +5013,13 @@ react-helmet@^5.1.3:
     prop-types "^15.5.4"
     react-side-effect "^1.1.0"
 
+react-input-autosize@^1.1.3:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/react-input-autosize/-/react-input-autosize-1.1.4.tgz#cbc45072d4084ddc57806db8e3b34e644b8366ac"
+  dependencies:
+    create-react-class "^15.5.2"
+    prop-types "^15.5.8"
+
 react-scripts@1.0.7:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-1.0.7.tgz#fe1436dda03bb45465c76d097cfea4f32eb7cbbb"
@@ -5038,6 +5062,15 @@ react-scripts@1.0.7:
     whatwg-fetch "2.0.3"
   optionalDependencies:
     fsevents "1.0.17"
+
+react-select@^1.0.0-rc.5:
+  version "1.0.0-rc.5"
+  resolved "https://registry.yarnpkg.com/react-select/-/react-select-1.0.0-rc.5.tgz#9d316f252b1adc372ddb5cdf1f119c6b7cfdb5d6"
+  dependencies:
+    classnames "^2.2.4"
+    create-react-class "^15.5.2"
+    prop-types "^15.5.8"
+    react-input-autosize "^1.1.3"
 
 react-side-effect@^1.1.0:
   version "1.1.3"
